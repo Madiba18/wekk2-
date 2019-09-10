@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+/*
+ *  @author Mame
+ */
+public class sumThree {
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		//1-- Introduvcion the program 
+		System.out.println("Welcome to this program" + " sum of the three numbers ");
+		// 2-- Ask the user for the inputs 
+		System.out.println("Enter three numbers");
+		//3-- Wait for the user's inputa and store 
+		int num1 = input.nextInt();
+		int num2 = input.nextInt();
+		int num3 = input.nextInt();
+		//4-- Calculate 
+		int result = num1 + num2 + num3;
+		//5-- Display result
+		System.out.println("Result is" + result);
+		
+
+
+}
+}
