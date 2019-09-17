@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class unit3p2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String myWords = "Sara 45 Cruz";
+		Scanner in = new Scanner(myWords);
+		String name = in.next();
+		int age = in.nextInt();
+		
+		
+		System.out.printf("%s is %d years old", name, age);
+		
+
+	}
+
+}
